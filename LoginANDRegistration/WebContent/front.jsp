@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>front page</title>
+</head>
+<body>
+<h1 align="center">Web Application</h1>
+	<form action="Login.jsp" method="post">
+		<table border="1" width="30%" cellpadding="3" align="center">
+
+			<thead>
+				<tr>
+					<th colspan="2">Select Here</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>LOGIN</td>
+					<td><a href="Login.jsp"> Login Here</a></td>
+				</tr>
+				<tr>
+					<td>REGISTER</td>
+					<td><a href="Registration.jsp">Register Here</a></td>
+
+				</tr>
+			</tbody>
+
+		</table>
+		
+	</form>
+
+</body>
+</html>
