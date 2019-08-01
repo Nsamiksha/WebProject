@@ -86,7 +86,7 @@ public class ServicesImplementation implements IServices {
 			e.printStackTrace();
 		} finally {
 			try {
-				send("samikshapnannaware1995@gmail.com", "iloveusamiksha", email, "link",
+				send("samikshapnannaware1995@gmail.com", "*******", email, "link",
 						"http://localhost:8080/LoginANDRegistration/SetPassword.jsp");
 				rs.close();
 				ps.close();
